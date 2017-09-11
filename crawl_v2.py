@@ -184,11 +184,11 @@ def main():
 	pageNum=getPageNum(href)  # 得到所有案件页数
 	print pageNum
 	
-	'''
+	
 	# 第一步 下载hrefs 和 titles
 	for i in range(pageNum):   # 页数要修改
 		get_one_page_all_href(href,i)
-	'''
+	
 	
 	'''
 	# t0=time.time()
@@ -201,7 +201,7 @@ def main():
 	# print 'load %s cost:%.2f' %(filepath,time.time()-t0)
 	'''
 	
-	'''
+	
 	
 	# 第二步 根据gid文件下载相应的文书
 	for i in range(pageNum):
@@ -217,7 +217,7 @@ def main():
 			time.sleep(10)  # 休眠10s
 		f.close()
 	
-	'''
+	
 
 if __name__ == '__main__':
 	main()

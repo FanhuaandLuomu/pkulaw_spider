@@ -3,7 +3,7 @@ import socket
 socket.setdefaulttimeout(60)
 import requests
 import urllib2
-import cchardet
+# import cchardet
 import os,time
 from lxml import etree
 import threading
